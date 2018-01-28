@@ -23,6 +23,7 @@ java intel.dcg.leslie.main
 MANIFEST.MF文件在Main-Class:后一定是空格，然后在这一行的结束一定要换行，再保存
 打包
 ```
+不在class路径下面打包，运行打包后的文件可能找不到main
 jar -cvmf MANIFEST.MF ../../lib/animal.jar ./intel/dcg/leslie/*
 ```
 测试这个包是否可以运行：
