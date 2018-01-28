@@ -10,6 +10,7 @@ project2中使用project1中编写的类
 编译：
 ```
 javac -d ../class ./intel/dcg/leslie/main.java ./intel/dcg/leslie/animal.java 
+
 ```
 测试主类是否可以运行
 ```

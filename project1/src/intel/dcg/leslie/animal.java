@@ -1,15 +1,10 @@
 package intel.dcg.leslie;
 
-public class animal{
-	private String name;
-	public animal(){
-		name = "leslie";
-	}
-	public animal(String myName){
-		name = myName;
-	}
-	public String sayName(){
-		System.out.println(name);
-		return name;
-	}
+//接口没有构造函数，没有实例变量和静态变量，但可以有 static final
+//抽象类可以有构造函数
+
+public interface animal{
+	public void sayName();
+	public void sayNumber();
+	public boolean eat(String food);
 }
